@@ -41,7 +41,8 @@ The sigmoid function maps gate scores into the range `(0, 1)`. Applying an L1 pe
 │   ├── training_curves.png
 │   ├── gate_distributions.png
 │   └── lambda_tradeoff.png
-├── self_pruning_cnn.py
+├── self-pruning-cnn-cifar10.ipynb
+|-- SelfPruning_CNN_Report.pdf
 └── README.md
 ```
 
@@ -56,7 +57,7 @@ The sigmoid function maps gate scores into the range `(0, 1)`. Applying an L1 pe
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/mustansirkanor/self-pruning-cnn--Mustansir_102303843-
 cd self-pruning-cnn-cifar10
 pip install torch torchvision numpy matplotlib
 ```
